@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Retrowave GIF](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjltNTI3ejVpYzN4eGw1YTRwZ3VpbWQ1YWYybWx1cmczOW5tamhhcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xUPGcyUaQ5q3fjbLEI/giphy.gif)
+![Retrowave GIF](https://media.giphy.com/media/DMSbPdkWoRj53XdEfn/giphy.gif?cid=790b76114vjel8fw4u995ocmh8f8ad8auy4sy1zvmbuol6c7&ep=v1_gifs_search&rid=giphy.gif&ct=g)
 
 ```
 ██╗    ██╗███████╗██████╗ ██████╗         ██████╗ ███████╗██╗   ██╗
