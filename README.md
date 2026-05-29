@@ -4,7 +4,7 @@
 
 Builder behind **Trench Club** — a personal builder lab exploring local-first AI workflows, safer Web3 interactions, and user-owned digital systems.
 
-[Portfolio](https://trenchclub.vercel.app/) · [GitHub](https://github.com/sapgun) · [X / Writing](YOUR_X_PROFILE_URL)
+[Portfolio](https://trenchclub.vercel.app/) · [GitHub](https://github.com/sapgun) · [X / Writing](https://x.com/caro7370)
 
 ---
 
