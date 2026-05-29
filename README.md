@@ -1,153 +1,70 @@
-# 『 Welcome to Sapgun's GitHub 』 ⚡
+# SAPGUN
 
-<div align="center">
+### Digging practical systems for Web3 trust and sovereign AI.
 
-![Retrowave GIF](https://media.giphy.com/media/DMSbPdkWoRj53XdEfn/giphy.gif?cid=790b76114vjel8fw4u995ocmh8f8ad8auy4sy1zvmbuol6c7&ep=v1_gifs_search&rid=giphy.gif&ct=g)
+Builder behind **Trench Club** — a personal builder lab exploring local-first AI workflows, safer Web3 interactions, and user-owned digital systems.
 
-```
-██╗    ██╗███████╗██████╗ ██████╗         ██████╗ ███████╗██╗   ██╗
-██║    ██║██╔════╝██╔══██╗╚════██╗        ██╔══██╗██╔════╝██║   ██║
-██║ █╗ ██║█████╗  ██████╔╝ █████╔╝        ██║  ██║█████╗  ██║   ██║
-██║███╗██║██╔══╝  ██╔══██╗ ╚═══██╗        ██║  ██║██╔══╝  ╚██╗ ██╔╝
-╚███╔███╔╝███████╗██████╔╝██████╔╝        ██████╔╝███████╗ ╚████╔╝ 
- ╚══╝╚══╝ ╚══════╝╚═════╝ ╚═════╝         ╚═════╝ ╚══════╝  ╚═══╝  
-```
+[Portfolio](https://trenchclub.vercel.app/) · [GitHub](https://github.com/sapgun) · [X / Writing](YOUR_X_PROFILE_URL)
 
-</div>
+---
 
-## ༺ ⛓️ Web3 & Blockchain Explorer ⛓️ ༻
+## Currently Digging
 
-<div align="center">
-  
-> *"The future is distributed. The revolution will be tokenized."*
+* **Local-first AI systems** that keep knowledge, assets, and approvals under user control.
+* **Web3 trust and security products** that help users understand risk before signing or transacting.
+* **Practical product prototypes** built through visible experiments, documented architecture, and working interfaces.
 
-</div>
+---
 
-### 【🌌】About Me
+## Featured Builds
 
-Surfing the digital waves of the decentralized universe. I'm a blockchain architect crafting the neon highways of tomorrow's internet. By day, I forge smart contracts; by night, I explore the endless possibilities of Web3.
+| Project      | What it explores                                                                   | Status               | Links                                                                                                               |
+| ------------ | ---------------------------------------------------------------------------------- | -------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| **VESPERA**  | Local-first AI operations kit for owned context and human-approved agent workflows | Active / Open Source | [Repository](https://github.com/sapgun/vespera) · [Live Page](https://vespera-runtime.vercel.app/)                  |
+| **TrustFi**  | Web3 trust and security gateway with transaction review and signing-risk signals   | MVP Prototype        | [Repository](https://github.com/sapgun/TrustFi) · [Live Page](https://trust-port.vercel.app/)                       |
+| **Heychain** | Chat-based Web3 onboarding experience using AI interfaces                          | Portfolio Build      | [Repository](https://github.com/sapgun/Heychain_web3_101) · [Live Demo](https://heychain-web3-101-af7g.vercel.app/) |
+| **NodeNest** | Frontend MVP for modular edge devices and blockchain node operations               | Frontend MVP         | [Repository](https://github.com/sapgun/NodeNest_DEPIN) · [Live Page](https://node-nest-depin.vercel.app/)           |
 
-<div align="center">
+---
 
-```
-▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀
-▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
-```
+## The Builder Behind the Shovel
 
-</div>
+My path began with **sports science and Taekwondo**, where discipline and repetition shaped the way I work.
 
-### 【🕹️】Tech Stack
+I later trained in **AI, deep learning, and computer vision**, then moved into blockchain product building through **Hyperledger Fabric, Ethereum, Solidity, and Solana-oriented development**.
 
-<div align="center">
-  
-```
-█▀▀ █▄░█ ▄▀█ █▀█ ▀█▀   █▀▀ █▀█ █▄░█ ▀█▀ █▀█ ▄▀█ █▀▀ ▀█▀ █▀
-▄█ █░▀█ █▀█ █▀▄ ░█░   █▄▄ █▄█ █░▀█ ░█░ █▀▄ █▀█ █▄▄ ░█░ ▄█
-```
+Today, I focus on a practical question:
 
-| LAYER 1 | LAYER 2 | DeFi | NFT | Tools |
-|:-------:|:-------:|:----:|:---:|:-----:|
-| ETH | Polygon | Uniswap | ERC-721 | Hardhat |
-| Solana | Optimism | AAVE | ERC-1155 | Truffle |
-| Avalanche | Arbitrum | Compound | Metaplex | The Graph |
+> How can we build digital systems where users actually own their context, assets, identity, and trust?
 
-</div>
+That question connects my work across VESPERA, TrustFi, and Trench Club.
 
-### 【💾】Current Projects
+---
 
-<div align="center">
-<table>
-  <tr>
-    <td align="center">🟣</td>
-    <td><b>CyberVault</b> - Retro-themed DeFi protocol with synthwave aesthetics</td>
-  </tr>
-  <tr>
-    <td align="center">🔵</td>
-    <td><b>NeonNFT</b> - 80s-inspired collectibles with on-chain rarity systems</td>
-  </tr>
-  <tr>
-    <td align="center">🟡</td>
-    <td><b>RetroDAO</b> - Governance platform with arcade-style voting mechanisms</td>
-  </tr>
-  <tr>
-    <td align="center">🟣</td>
-    <td><b>SynthBridge</b> - Cross-chain asset transfer with vaporwave UI/UX</td>
-  </tr>
-</table>
-</div>
+## Working Principles
 
-### 【📊】Blockchain Stats
+* Build prototypes that can be inspected, tested, and improved.
+* Separate implemented features from planned ideas.
+* Treat user ownership, trust, and security as product fundamentals.
+* Use AI as a worker in the workflow, not the owner of the workflow.
 
-<div align="center">
-  
-```
-┌──────────────────────────────────────┐
-│                                      │
-│  ██████████████████ CONTRIBUTIONS: 1.2k+     │
-│                                      │
-│  ██████████████     SMART CONTRACTS: 35+     │
-│                                      │
-│  ████████           PROTOCOLS: 12+          │
-│                                      │
-│  ████               PROJECTS: 8+          │
-│                                      │
-└──────────────────────────────────────┘
-```
+---
 
-</div>
+## Working With
 
-### 【🔗】Connect.exe
+`TypeScript` · `Next.js` · `React` · `Python` · `Solidity` · `Tailwind CSS` · `PostgreSQL` · `AI Agents` · `Web3 UX`
 
-<div align="center">
+Exploring desktop packaging and local-first workflows through `Tauri`, structured knowledge vaults, and agent orchestration patterns.
 
-```
-┌─────────────┐  ┌─────────────┐  ┌─────────────┐
-│   TWITTER   │  │   DISCORD   │  │   WEBSITE   │
-└─────────────┘  └─────────────┘  └─────────────┘
-```
+---
 
-[🐦 Twitter](https://twitter.com) • [💬 Discord](https://discord.com) • [🌐 Website](https://website.com)
+## Trench Club
 
-`WALLET: 0xSap...Gun`
+**Trench Club** is my builder lab for documenting experiments and developing products around:
 
-</div>
+* Web3 trust and security
+* Sovereign and local-first AI
+* User-owned workflows
+* Practical open-source product building
 
-### 【⚡】On-Chain Philosophy
-
-```solidity
-// CyberFuture.sol
-contract RetroFuturist {
-    event NewVision(string vision, uint256 timestamp);
-    
-    function buildTomorrow() public {
-        emit NewVision("Where blockchain meets neon skies and digital highways", block.timestamp);
-    }
-    
-    function joinMovement() public pure returns (string memory) {
-        return "THE FUTURE IS NOW: 1989 >> 2025";
-    }
-}
-```
-
-<div align="center">
-
-```
-▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-```
-
-```
-▀█▀ █░█ █▀▀   █▀▀ █░█ ▀█▀ █░█ █▀█ █▀▀   █ █▀   █▀▄ █ █▀ ▀█▀ █▀█ █ █▄▄ █░█ ▀█▀ █▀▀ █▀▄
-░█░ █▀█ ██▄   █▀░ █▄█ ░█░ █▄█ █▀▄ ██▄   █ ▄█   █▄▀ █ ▄█ ░█░ █▀▄ █ █▄█ █▄█ ░█░ ██▄ █▄▀
-```
-
-</div>
-<img src="https://via.placeholder.com/800x5/FF00FF/FF00FF" alt="neon divider">
-
-```
-▀█▀ █░█ █▀▀   █▀▀ █░█ ▀█▀ █░█ █▀█ █▀▀   █ █▀   █▀▄ █ █▀ ▀█▀ █▀█ █ █▄▄ █░█ ▀█▀ █▀▀ █▀▄
-░█░ █▀█ ██▄   █▀░ █▄█ ░█░ █▄█ █▀▄ ██▄   █ ▄█   █▄▀ █ ▄█ ░█░ █▀▄ █ █▄█ █▄█ ░█░ ██▄ █▄▀
-```
-
-</div>
+> Keep digging. Build what can be verified.
