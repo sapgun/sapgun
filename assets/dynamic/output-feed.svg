@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="Dynamic profile signal pending first workflow run">
+<rect x=".5" y=".5" width="1199" height="219" rx="22" fill="#0d1117" stroke="#30363d"/>
+<text x="52" y="78" fill="#f0f6fc" font-family="Arial, sans-serif" font-size="24" font-weight="700">DYNAMIC SIGNAL INITIALIZING</text>
+<text x="52" y="116" fill="#8b949e" font-family="monospace" font-size="15">THE MAIN-BRANCH WORKFLOW WILL REPLACE THIS ASSET WITH VERIFIED PUBLIC GITHUB METADATA.</text>
+<text x="52" y="156" fill="#58a6ff" font-family="monospace" font-size="14">NO CLAIMS ARE GENERATED UNTIL A PUBLIC SURFACE EXISTS.</text>
+</svg>

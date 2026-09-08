@@ -1,8 +1,78 @@
 {
   "owner": "sapgun",
   "profile_repository": "sapgun",
-  "exclude_repositories": ["sapgun"],
-  "max_recent_repositories": 5,
+  "exclude_repositories": [
+    "sapgun"
+  ],
+  "max_recent_repositories": 6,
+  "signal_repositories": [
+    "vespera-web",
+    "TrustFi",
+    "NodeNest_DEPIN",
+    "modular-code-marketplace",
+    "mirwon-chain",
+    "ai-systems-bottleneck-book",
+    "defi-protocol-design-lab",
+    "onchain-protocol-research",
+    "vespera-spec"
+  ],
+  "research_repositories": [
+    "onchain-protocol-research",
+    "defi-protocol-design-lab",
+    "ai-systems-bottleneck-book",
+    "mirwon-chain"
+  ],
+  "release_repositories": [
+    "vespera-web",
+    "TrustFi",
+    "NodeNest_DEPIN",
+    "modular-code-marketplace",
+    "ai-systems-bottleneck-book"
+  ],
+  "featured_projects": [
+    {
+      "name": "TrustFi",
+      "display": "TrustFi",
+      "domain": "WEB3 SECURITY",
+      "status": "MVP PROTOTYPE",
+      "summary": "Signing risk · trust score · safer onboarding"
+    },
+    {
+      "name": "vespera-web",
+      "display": "VESPERA",
+      "domain": "AI SYSTEMS",
+      "status": "PRIVATE CORE / PUBLIC SURFACE",
+      "summary": "Local-first agent runtime · permission boundaries"
+    },
+    {
+      "name": "NodeNest_DEPIN",
+      "display": "NodeNest",
+      "domain": "DEPIN / INFRA",
+      "status": "PROTOTYPE",
+      "summary": "Edge devices · blockchain node operations"
+    },
+    {
+      "name": "modular-code-marketplace",
+      "display": "MCS",
+      "domain": "SMART CONTRACT SECURITY",
+      "status": "PROTOTYPE",
+      "summary": "AI-assisted analysis · code workflows"
+    },
+    {
+      "name": "mirwon-chain",
+      "display": "MirWon",
+      "domain": "STABLEFI / RWA",
+      "status": "FRONTEND MVP / DESIGN",
+      "summary": "KRW StableFi · protocol architecture direction"
+    },
+    {
+      "name": "ai-systems-bottleneck-book",
+      "display": "AI Systems Bottleneck",
+      "domain": "SYSTEMS RESEARCH",
+      "status": "PUBLISHED",
+      "summary": "Profiling · local LLM runtimes · bottlenecks"
+    }
+  ],
   "positioning": [
     "Web3 Security",
     "DeFi Protocol Design",
