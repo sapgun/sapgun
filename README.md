@@ -40,6 +40,10 @@
   <img src="./assets/stack.svg" width="100%" alt="Engineering stack by domain" />
 </p>
 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,python,solidity,nextjs,react,tauri,docker,postgres,git,github,linux&amp;perline=11" alt="Core engineering tools" />
+</p>
+
 <img src="./assets/sections/04-selected-work.svg" width="100%" alt="Selected work" />
 
 <p align="center">
@@ -103,12 +107,25 @@ _Career-signal repositories only. Generated from public GitHub metadata._
 <!-- PUBLIC-ACTIVITY:END -->
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sapgun&theme=github-compact&hide_border=true&area=true" width="100%" alt="SAPGUN GitHub contribution activity graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sapgun&amp;theme=github-compact&amp;hide_border=true&amp;area=true" width="100%" alt="SAPGUN GitHub contribution activity graph" />
 </p>
 
 <sub>The dynamic cards above are intentionally filtered to career-signal repositories. The contribution graph remains the broad public GitHub activity layer.</sub>
 
-<img src="./assets/sections/08-principles.svg" width="100%" alt="Working principles" />
+<img src="./assets/sections/08-swe-signal.svg" width="100%" alt="SWE profile signal" />
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=sapgun&amp;show_icons=true&amp;hide_border=true&amp;theme=github_dark&amp;include_all_commits=true&amp;rank_icon=github" alt="SAPGUN GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sapgun&amp;layout=compact&amp;hide_border=true&amp;theme=github_dark&amp;langs_count=8&amp;exclude_repo=2023_seo_lecture,rumi_flutter_edit,introduction-to-github,mypage,git-remote-origin,testgitfold,mcs_1st_NextProject" alt="SAPGUN top languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=sapgun&amp;theme=github-dark-blue&amp;hide_border=true" alt="SAPGUN GitHub contribution streak" />
+</p>
+
+<sub>These widgets are broad SWE signals. The custom project deck and public engineering signal above remain the career-filtered evidence layer.</sub>
+
+<img src="./assets/sections/09-principles.svg" width="100%" alt="Working principles" />
 
 - Build prototypes that can be inspected, tested and improved.
 - Keep **implemented / prototype / research / planned** boundaries explicit.
@@ -126,7 +143,7 @@ My path started in sports science and Taekwondo, moved through AI / deep learnin
 <details>
 <summary><strong>How this profile works</strong></summary>
 <br/>
-This README is generated as a small developer-profile system: static SVG brand/architecture layers + configured career-signal repositories + GitHub metadata + a dependency-light Python generator + GitHub Actions. See <a href="./docs/PROFILE-SYSTEM.md">PROFILE-SYSTEM.md</a>.
+This README is generated as a small developer-profile system: static SVG brand/architecture layers + configured career-signal repositories + GitHub metadata + a dependency-light Python generator + GitHub Actions. Familiar SWE widgets are layered on top as a secondary signal rather than replacing the custom career-evidence system. See <a href="./docs/PROFILE-SYSTEM.md">PROFILE-SYSTEM.md</a>.
 </details>
 
 <br/>
