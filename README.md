@@ -20,7 +20,7 @@
 | **MCS** | AI-assisted smart-contract security analysis and modular code marketplace | [Prototype](https://github.com/sapgun/modular-code-marketplace) |
 | **AI Systems Bottleneck** | Systems research on profiling, local LLM runtimes and bottleneck reasoning | [Published research](https://github.com/sapgun/ai-systems-bottleneck-book) |
 
-> I separate what is implemented, prototyped, researched and planned. Architecture claims should be inspectable.
+> Implemented, prototype, research and planned work are deliberately separated. Architecture claims should be inspectable.
 
 <img src="./assets/sections/02-builder-map.svg" width="100%" alt="Builder map" />
 
@@ -42,53 +42,78 @@
 
 <img src="./assets/sections/04-selected-work.svg" width="100%" alt="Selected work" />
 
-### Web3 security
-- **[TrustFi](https://github.com/sapgun/TrustFi)** — transaction review, signing-risk signals, trust scoring and safer Web3 onboarding.
-- **[MCS](https://github.com/sapgun/modular-code-marketplace)** — prototype combining smart-contract security analysis with code-oriented product workflows.
+<p align="center">
+  <img src="./assets/dynamic/project-deck.svg" width="100%" alt="Selected systems evidence deck" />
+</p>
 
-### Systems & infrastructure
-- **[VESPERA Web](https://github.com/sapgun/vespera-web)** — public surface for a private-core, local-first agent runtime.
+<details>
+<summary><strong>Direct repository links</strong></summary>
+<br/>
+
+- **[TrustFi](https://github.com/sapgun/TrustFi)** — Web3 security, signing risk, trust scoring and safer onboarding.
+- **[VESPERA Web](https://github.com/sapgun/vespera-web)** — public product surface for a private-core local-first agent runtime.
 - **[NodeNest](https://github.com/sapgun/NodeNest_DEPIN)** — modular edge / DePIN exploration for blockchain node execution.
-
-### Research & protocol design
+- **[MCS](https://github.com/sapgun/modular-code-marketplace)** — AI-assisted smart-contract security analysis prototype.
+- **[MirWon](https://github.com/sapgun/mirwon-chain)** — KRW StableFi frontend MVP and protocol-architecture direction.
 - **[AI Systems Bottleneck](https://github.com/sapgun/ai-systems-bottleneck-book)** — practical systems research and publication.
-- **[MirWon](https://github.com/sapgun/mirwon-chain)** — KRW StableFi frontend MVP and protocol-architecture direction; chain implementation is not claimed in the current repository.
+
+</details>
 
 <img src="./assets/sections/05-protocol-research.svg" width="100%" alt="Protocol research" />
 
-**Next public labs — explicitly planned, not yet presented as completed work:**
+**Next public labs — planned, not presented as completed work:**
 
 - `defi-protocol-design-lab` — AMM → ERC-4626 vault → lending/liquidation → stablecoin → perpetuals, with specs, invariants, threat models, Foundry tests and Python simulation.
 - `onchain-protocol-research` — reproducible protocol teardown, contract maps, privilege/governance timelines, token economics and risk registers.
+- `vespera-spec` — public architecture, ADRs, permission model, MCP interfaces, evals and benchmarks while the runtime core remains private.
 
 Research direction: **mechanism → state transition → invariant → attack surface → economic failure mode → reproducible evidence**.
 
-<img src="./assets/sections/06-live-signal.svg" width="100%" alt="Live GitHub signal" />
+<img src="./assets/sections/06-output-feed.svg" width="100%" alt="Latest output" />
 
 <p align="center">
-  <img src="./assets/dynamic/public-signal.svg" width="100%" alt="Live public build signal" />
+  <img src="./assets/dynamic/output-feed.svg" width="100%" alt="Latest public build, research and release output" />
+</p>
+
+<!-- OUTPUT-FEED:START -->
+_This block is generated automatically from configured career-signal repositories after the workflow runs._
+<!-- OUTPUT-FEED:END -->
+
+<img src="./assets/sections/07-live-signal.svg" width="100%" alt="Live GitHub signal" />
+
+<p align="center">
+  <img src="./assets/dynamic/public-signal.svg" width="100%" alt="Live public engineering signal" />
 </p>
 
 <!-- PUBLIC-ACTIVITY:START -->
-_This block is generated automatically from public GitHub repository metadata after the workflow is first run._
+_This block is generated automatically from configured career-signal repositories after the workflow runs._
 <!-- PUBLIC-ACTIVITY:END -->
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=sapgun&theme=github-compact&hide_border=true&area=true" width="100%" alt="SAPGUN GitHub contribution activity graph" />
 </p>
 
-<img src="./assets/sections/07-principles.svg" width="100%" alt="Working principles" />
+<sub>The dynamic cards above are intentionally filtered to career-signal repositories. The contribution graph remains the broad public GitHub activity layer.</sub>
+
+<img src="./assets/sections/08-principles.svg" width="100%" alt="Working principles" />
 
 - Build prototypes that can be inspected, tested and improved.
 - Keep **implemented / prototype / research / planned** boundaries explicit.
 - Treat permission, trust and security boundaries as product architecture.
 - Use AI as a worker inside the system, not as the owner of the workflow.
 - Prefer reproducible research over screenshots and unsupported claims.
+- Let the profile reflect evidence, not every repository equally.
 
 <details>
 <summary><strong>Background</strong></summary>
 <br/>
 My path started in sports science and Taekwondo, moved through AI / deep learning / computer vision, and then into blockchain product engineering. Today I use that systems mindset across Web3, DeFi, security and local-first AI.
+</details>
+
+<details>
+<summary><strong>How this profile works</strong></summary>
+<br/>
+This README is generated as a small developer-profile system: static SVG brand/architecture layers + configured career-signal repositories + GitHub metadata + a dependency-light Python generator + GitHub Actions. See <a href="./docs/PROFILE-SYSTEM.md">PROFILE-SYSTEM.md</a>.
 </details>
 
 <br/>
