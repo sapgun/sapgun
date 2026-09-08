@@ -76,7 +76,11 @@ Research direction: **mechanism → state transition → invariant → attack su
 </p>
 
 <!-- OUTPUT-FEED:START -->
-_This block is generated automatically from configured career-signal repositories after the workflow runs._
+| Signal | Latest public evidence | Date |
+| --- | --- | --- |
+| **BUILD** | **[ai-systems-bottleneck-book](https://github.com/sapgun/ai-systems-bottleneck-book)** — A practical field guide to reasoning about AI system bottlenecks — resour… | `2026-08-17` |
+| **RESEARCH** | **[ai-systems-bottleneck-book](https://github.com/sapgun/ai-systems-bottleneck-book)** — A practical field guide to reasoning about AI system bottlenecks — resour… | `2026-08-17` |
+| **RELEASE** | **[AI SYSTEMS — Korean Edition v1.1](https://github.com/sapgun/ai-systems-bottleneck-book/releases/tag/v1.1-ko)** · `v1.1-ko` | `2026-08-16` |
 <!-- OUTPUT-FEED:END -->
 
 <img src="./assets/sections/07-live-signal.svg" width="100%" alt="Live GitHub signal" />
@@ -86,7 +90,16 @@ _This block is generated automatically from configured career-signal repositorie
 </p>
 
 <!-- PUBLIC-ACTIVITY:START -->
-_This block is generated automatically from configured career-signal repositories after the workflow runs._
+_Career-signal repositories only. Generated from public GitHub metadata._
+
+| Public engineering signal | Language | Stars | Latest push |
+| --- | --- | ---: | --- |
+| **[ai-systems-bottleneck-book](https://github.com/sapgun/ai-systems-bottleneck-book)** | HTML | 0 | `2026-08-17` |
+| **[vespera-web](https://github.com/sapgun/vespera-web)** | HTML | 0 | `2026-08-03` |
+| **[NodeNest_DEPIN](https://github.com/sapgun/NodeNest_DEPIN)** | TypeScript | 1 | `2026-06-23` |
+| **[modular-code-marketplace](https://github.com/sapgun/modular-code-marketplace)** | TypeScript | 0 | `2026-05-28` |
+| **[mirwon-chain](https://github.com/sapgun/mirwon-chain)** | TypeScript | 1 | `2026-05-27` |
+| **[TrustFi](https://github.com/sapgun/TrustFi)** | TypeScript | 1 | `2026-05-27` |
 <!-- PUBLIC-ACTIVITY:END -->
 
 <p align="center">
