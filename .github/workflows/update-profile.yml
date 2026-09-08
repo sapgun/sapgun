@@ -1,0 +1,42 @@
+name: Update dynamic profile
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 0 * * *" # 09:17 KST daily
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dynamic-profile
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh public GitHub signal
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_profile.py
+
+      - name: Commit only when generated output changed
+        run: |
+          if git diff --quiet; then
+            echo "No public profile changes detected."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/dynamic/public-signal.svg
+          git commit -m "chore(profile): refresh public build signal"
+          git push

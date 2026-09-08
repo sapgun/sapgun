@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">SAPGUN</title><desc id="desc">Web3, AI Systems, DeFi and Security builder profile.</desc>
+  <defs>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#1f2937" stroke-width="1"/></pattern>
+    <linearGradient id="line" x1="0" x2="1"><stop offset="0" stop-color="#58a6ff" stop-opacity="0"/><stop offset=".5" stop-color="#58a6ff"/><stop offset="1" stop-color="#58a6ff" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="#0d1117"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)" opacity=".55"/>
+  <rect x="28" y="28" width="1144" height="304" rx="18" fill="none" stroke="#30363d"/>
+  <text x="72" y="86" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" letter-spacing="3">TRENCH CLUB // BUILDER PROFILE</text>
+  <text x="72" y="184" fill="#f0f6fc" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="800" letter-spacing="8">SAPGUN</text>
+  <text x="76" y="230" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" letter-spacing="4">WEB3 · AI SYSTEMS · DEFI · SECURITY</text>
+  <rect x="72" y="264" width="1056" height="2" fill="url(#line)"/>
+  <text x="76" y="307" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" letter-spacing="2">BUILD SYSTEMS  /  BREAK ASSUMPTIONS  /  VERIFY</text>
+  <circle cx="1092" cy="84" r="7" fill="#3fb950"/><text x="1110" y="90" fill="#8b949e" font-family="monospace" font-size="15">PUBLIC</text>
+</svg>

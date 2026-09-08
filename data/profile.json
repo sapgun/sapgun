@@ -1,0 +1,12 @@
+{
+  "owner": "sapgun",
+  "profile_repository": "sapgun",
+  "exclude_repositories": ["sapgun"],
+  "max_recent_repositories": 5,
+  "positioning": [
+    "Web3 Security",
+    "DeFi Protocol Design",
+    "AI Systems",
+    "Onchain Research"
+  ]
+}
