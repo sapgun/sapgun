@@ -1,70 +1,95 @@
-# SAPGUN
+<p align="center">
+  <img src="./assets/hero.svg" width="100%" alt="SAPGUN — Web3, AI Systems, DeFi and Security builder profile" />
+</p>
 
-### Digging practical systems for Web3 trust and sovereign AI.
+<p align="center">
+  <a href="https://trenchclub.vercel.app/">Portfolio</a> ·
+  <a href="https://github.com/sapgun">GitHub</a> ·
+  <a href="https://x.com/0xSAPGUN">X / Writing</a>
+</p>
 
-Builder behind **Trench Club** — a personal builder lab exploring local-first AI workflows, safer Web3 interactions, and user-owned digital systems.
+<p align="center"><strong>Web3 & AI Systems Builder</strong><br/>Building and researching systems across Web3 security, DeFi protocols, onchain infrastructure, sovereign AI and developer tooling.</p>
 
-[Portfolio](https://trenchclub.vercel.app/) · [GitHub](https://github.com/sapgun) · [X / Writing](https://x.com/caro7370)
+<img src="./assets/sections/01-current-focus.svg" width="100%" alt="Current focus" />
 
----
+| System | Focus | Public status |
+| --- | --- | --- |
+| **VESPERA** | Local-first agent runtime, permission boundaries and owned context | Private core · [public product surface](https://github.com/sapgun/vespera-web) |
+| **TrustFi** | Web3 trust & security gateway, signing risk and safer onboarding | [MVP prototype](https://github.com/sapgun/TrustFi) |
+| **NodeNest** | Modular DePIN / edge infrastructure for blockchain node operations | [Prototype](https://github.com/sapgun/NodeNest_DEPIN) |
+| **MCS** | AI-assisted smart-contract security analysis and modular code marketplace | [Prototype](https://github.com/sapgun/modular-code-marketplace) |
+| **AI Systems Bottleneck** | Systems research on profiling, local LLM runtimes and bottleneck reasoning | [Published research](https://github.com/sapgun/ai-systems-bottleneck-book) |
 
-## Currently Digging
+> I separate what is implemented, prototyped, researched and planned. Architecture claims should be inspectable.
 
-* **Local-first AI systems** that keep knowledge, assets, and approvals under user control.
-* **Web3 trust and security products** that help users understand risk before signing or transacting.
-* **Practical product prototypes** built through visible experiments, documented architecture, and working interfaces.
+<img src="./assets/sections/02-builder-map.svg" width="100%" alt="Builder map" />
 
----
+<p align="center">
+  <img src="./assets/capability-map.svg" width="100%" alt="SAPGUN capability map" />
+</p>
 
-## Featured Builds
+<p align="center">
+  <img src="./assets/quadrant.svg" width="100%" alt="SAPGUN portfolio quadrant" />
+</p>
 
-| Project      | What it explores                                                                   | Status               | Links                                                                                                               |
-| ------------ | ---------------------------------------------------------------------------------- | -------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| **VESPERA**  | Local-first AI operations kit for owned context and human-approved agent workflows | Active / Open Source | [Repository](https://github.com/sapgun/vespera) · [Live Page](https://vespera-runtime.vercel.app/)                  |
-| **TrustFi**  | Web3 trust and security gateway with transaction review and signing-risk signals   | MVP Prototype        | [Repository](https://github.com/sapgun/TrustFi) · [Live Page](https://trust-port.vercel.app/)                       |
-| **Heychain** | Chat-based Web3 onboarding experience using AI interfaces                          | Portfolio Build      | [Repository](https://github.com/sapgun/Heychain_web3_101) · [Live Demo](https://heychain-web3-101-af7g.vercel.app/) |
-| **NodeNest** | Frontend MVP for modular edge devices and blockchain node operations               | Frontend MVP         | [Repository](https://github.com/sapgun/NodeNest_DEPIN) · [Live Page](https://node-nest-depin.vercel.app/)           |
+<sub>Portfolio quadrant is a qualitative map of project orientation, not a performance score.</sub>
 
----
+<img src="./assets/sections/03-engineering-stack.svg" width="100%" alt="Engineering stack" />
 
-## The Builder Behind the Shovel
+<p align="center">
+  <img src="./assets/stack.svg" width="100%" alt="Engineering stack by domain" />
+</p>
 
-My path began with **sports science and Taekwondo**, where discipline and repetition shaped the way I work.
+<img src="./assets/sections/04-selected-work.svg" width="100%" alt="Selected work" />
 
-I later trained in **AI, deep learning, and computer vision**, then moved into blockchain product building through **Hyperledger Fabric, Ethereum, Solidity, and Solana-oriented development**.
+### Web3 security
+- **[TrustFi](https://github.com/sapgun/TrustFi)** — transaction review, signing-risk signals, trust scoring and safer Web3 onboarding.
+- **[MCS](https://github.com/sapgun/modular-code-marketplace)** — prototype combining smart-contract security analysis with code-oriented product workflows.
 
-Today, I focus on a practical question:
+### Systems & infrastructure
+- **[VESPERA Web](https://github.com/sapgun/vespera-web)** — public surface for a private-core, local-first agent runtime.
+- **[NodeNest](https://github.com/sapgun/NodeNest_DEPIN)** — modular edge / DePIN exploration for blockchain node execution.
 
-> How can we build digital systems where users actually own their context, assets, identity, and trust?
+### Research & protocol design
+- **[AI Systems Bottleneck](https://github.com/sapgun/ai-systems-bottleneck-book)** — practical systems research and publication.
+- **[MirWon](https://github.com/sapgun/mirwon-chain)** — KRW StableFi frontend MVP and protocol-architecture direction; chain implementation is not claimed in the current repository.
 
-That question connects my work across VESPERA, TrustFi, and Trench Club.
+<img src="./assets/sections/05-protocol-research.svg" width="100%" alt="Protocol research" />
 
----
+**Next public labs — explicitly planned, not yet presented as completed work:**
 
-## Working Principles
+- `defi-protocol-design-lab` — AMM → ERC-4626 vault → lending/liquidation → stablecoin → perpetuals, with specs, invariants, threat models, Foundry tests and Python simulation.
+- `onchain-protocol-research` — reproducible protocol teardown, contract maps, privilege/governance timelines, token economics and risk registers.
 
-* Build prototypes that can be inspected, tested, and improved.
-* Separate implemented features from planned ideas.
-* Treat user ownership, trust, and security as product fundamentals.
-* Use AI as a worker in the workflow, not the owner of the workflow.
+Research direction: **mechanism → state transition → invariant → attack surface → economic failure mode → reproducible evidence**.
 
----
+<img src="./assets/sections/06-live-signal.svg" width="100%" alt="Live GitHub signal" />
 
-## Working With
+<p align="center">
+  <img src="./assets/dynamic/public-signal.svg" width="100%" alt="Live public build signal" />
+</p>
 
-`TypeScript` · `Next.js` · `React` · `Python` · `Solidity` · `Tailwind CSS` · `PostgreSQL` · `AI Agents` · `Web3 UX`
+<!-- PUBLIC-ACTIVITY:START -->
+_This block is generated automatically from public GitHub repository metadata after the workflow is first run._
+<!-- PUBLIC-ACTIVITY:END -->
 
-Exploring desktop packaging and local-first workflows through `Tauri`, structured knowledge vaults, and agent orchestration patterns.
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sapgun&theme=github-compact&hide_border=true&area=true" width="100%" alt="SAPGUN GitHub contribution activity graph" />
+</p>
 
----
+<img src="./assets/sections/07-principles.svg" width="100%" alt="Working principles" />
 
-## Trench Club
+- Build prototypes that can be inspected, tested and improved.
+- Keep **implemented / prototype / research / planned** boundaries explicit.
+- Treat permission, trust and security boundaries as product architecture.
+- Use AI as a worker inside the system, not as the owner of the workflow.
+- Prefer reproducible research over screenshots and unsupported claims.
 
-**Trench Club** is my builder lab for documenting experiments and developing products around:
+<details>
+<summary><strong>Background</strong></summary>
+<br/>
+My path started in sports science and Taekwondo, moved through AI / deep learning / computer vision, and then into blockchain product engineering. Today I use that systems mindset across Web3, DeFi, security and local-first AI.
+</details>
 
-* Web3 trust and security
-* Sovereign and local-first AI
-* User-owned workflows
-* Practical open-source product building
-
-> Keep digging. Build what can be verified.
+<br/>
+<p align="center"><strong>Trench Club</strong> · Keep digging. Build what can be verified.</p>
