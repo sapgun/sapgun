@@ -39,7 +39,32 @@ A repository listed in configuration but not public yet is ignored by the genera
 - the `OUTPUT-FEED` block in `README.md`
 - the `PUBLIC-ACTIVITY` block in `README.md`
 
-The workflow runs daily, can be dispatched manually, and also runs when the generator or profile configuration changes.
+### Refresh modes
+
+The profile has three refresh paths:
+
+1. **Near-real-time fallback** — GitHub Actions refreshes at minute `07` and `37` of every hour.
+2. **Immediate receiver** — the profile repository accepts a `repository_dispatch` event with type `refresh-profile`.
+3. **Manual/config refresh** — `workflow_dispatch` remains available, and changes to the profile generator/config/workflow on `main` trigger a refresh automatically.
+
+Only generated files that actually changed are committed, so frequent checks do not create empty history noise.
+
+### Event-driven sync from flagship repositories
+
+For true push/release-triggered refreshes, a flagship repository can send this event to `sapgun/sapgun` after its own workflow completes:
+
+```yaml
+- name: Refresh SAPGUN profile
+  env:
+    GH_TOKEN: ${{ secrets.PROFILE_SYNC_TOKEN }}
+  run: |
+    gh api --method POST repos/sapgun/sapgun/dispatches \
+      -f event_type='refresh-profile'
+```
+
+`PROFILE_SYNC_TOKEN` must be a fine-grained token or GitHub App token that can access the profile repository. Never commit the token itself. Until that credential is configured in source repositories, the 30-minute fallback keeps the profile synchronized without cross-repository secrets.
+
+External README widgets such as GitHub Readme Stats, Streak Stats and the activity graph are fetched by GitHub when the profile renders and follow each provider's own cache policy. They are therefore independent of the generated 30-minute profile signal.
 
 ## Adding a new flagship repository
 
@@ -50,6 +75,7 @@ The workflow runs daily, can be dispatched manually, and also runs when the gene
 5. Add a `featured_projects` entry only when it deserves a permanent evidence card.
 6. Keep status language factual: `Prototype`, `Published`, `Private Core / Public Surface`, `Design`, or another accurate boundary.
 7. Run the workflow and inspect the README in both GitHub light and dark themes.
+8. Optionally add the `refresh-profile` dispatch step to the repository's CI/release workflow after `PROFILE_SYNC_TOKEN` is configured.
 
 ## Planned public surfaces
 
