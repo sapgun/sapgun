@@ -2,20 +2,23 @@ name: Update dynamic profile
 
 on:
   workflow_dispatch:
+  repository_dispatch:
+    types: [refresh-profile]
   schedule:
-    - cron: "17 0 * * *" # 09:17 KST daily
+    - cron: "7,37 * * * *" # near-real-time fallback every 30 min (UTC)
   push:
     branches: [main]
     paths:
       - "data/profile.json"
       - "scripts/update_profile.py"
+      - ".github/workflows/update-profile.yml"
 
 permissions:
   contents: write
 
 concurrency:
   group: dynamic-profile
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   update:
