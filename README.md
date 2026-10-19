@@ -98,7 +98,7 @@ _Career-signal repositories only. Generated from public GitHub metadata._
 
 | Public engineering signal | Language | Stars | Latest push |
 | --- | --- | ---: | --- |
-| **[ai-systems-bottleneck-book](https://github.com/sapgun/ai-systems-bottleneck-book)** | HTML | 0 | `2026-08-17` |
+| **[ai-systems-bottleneck-book](https://github.com/sapgun/ai-systems-bottleneck-book)** | HTML | 1 | `2026-08-17` |
 | **[vespera-web](https://github.com/sapgun/vespera-web)** | HTML | 0 | `2026-08-03` |
 | **[NodeNest_DEPIN](https://github.com/sapgun/NodeNest_DEPIN)** | TypeScript | 1 | `2026-06-23` |
 | **[modular-code-marketplace](https://github.com/sapgun/modular-code-marketplace)** | TypeScript | 0 | `2026-05-28` |
